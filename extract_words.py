@@ -6,7 +6,7 @@ def all_words(words):
     allwords = ' '.join(words)
 
     # write all words to a file
-    file_path_all = 'C:\\Users\\Nathan\\allwords.txt'
+    file_path_all = 'allwords.txt'
     with open(file_path_all, 'w', encoding='utf-8') as f:
         f.write(allwords)
 
@@ -15,7 +15,7 @@ def unique_words(words):
 
     # write all unique words to a file
     unique = ' '.join(unique)
-    file_path_unique = 'C:\\Users\\Nathan\\uniquewords.txt'
+    file_path_unique = 'uniquewords.txt'
     with open(file_path_unique, 'w', encoding='utf-8') as f:
         f.write(unique)
 
@@ -28,7 +28,7 @@ def word_frequency(counts):
     frequencies = dict(zip(counts, countsOfCounts))
 
     # write word frequencies to a file
-    file_path_freq = 'C:\\Users\\Nathan\\wordfrequency.txt'
+    file_path_freq = 'wordfrequency.txt'
     with open(file_path_freq, 'w', encoding='utf-8') as f:
         for key, value in frequencies.items():
             f.write(f"{key}: {value}\n")
