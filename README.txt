@@ -8,3 +8,7 @@ STEPS FOR RUNNING THIS PROJECT
 5. Click the window to randomly generate a new set of unique words
 6. Open a3_wordfrequency.pde
 7. Press 'Run'
+
+Python Requirements:
+NumPy
+Regex
