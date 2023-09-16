@@ -1,11 +1,11 @@
 # assignment3_CS324e
 Project Description
 
-extract_words.py
+extract_words.py (written by Nathan Feldt)
   This python program produces 3 text files: unique_words, word_frequency, and allwords. To create these files first the regex library is used to remove any unwanted characters and then is converted into a numpy array. Numpy is used to make all characters lowercase and sort the words for simplicity. Then the all_words function writes out the text file. The unique_words  function gets all unique words and the count for all the unique words using the np.unique function. The unique_words function also writes the unique words to a text file. Finally the words frequency function uses the count from the unique_words to create a dictionary. The dictionary is then written to a text function.
 
-the_sun_also_rises_wordcloud.png
+the_sun_also_rises_wordcloud.png (created by Jaden Wood)
   This WordCloud takes the figurative shape of our Sun. The font colors used include red, orange, and yellow, which represent the colors of our Sun. The text is scaled to the lowest level possible that still allows users to read its smallest text.
 
-a3_ novelvisualization
+a3_ novelvisualization (written by Jaden Wood)
   This .pde randomly generates words from uniquewords.txt and fits as many of these words as possible onto the 700x600px canvas. The words are in line-row format. The font, Copperplate Gothic Bold, is a typeface that was designed in the early 20th century, specifically in 1901 by Frederic W. Goudy. Its design and characteristics share some similarities with fonts from the 1920s era. 'The Sun Also Rises' was written in 1926, hence the choice of font. The font colors include red, orange, and yellow, which represent the colors of our Sun. Size-24 font was used simply for its aesthetic appearance and dimensions on a 700x600px canvas. When the user clicks the window, a new set of words from uniquewords.txt is generated.
