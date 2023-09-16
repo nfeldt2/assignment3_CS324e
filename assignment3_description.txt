@@ -9,3 +9,6 @@ the_sun_also_rises_wordcloud.png (created by Jaden Wood)
 
 a3_ novelvisualization (written by Jaden Wood)
   This .pde randomly generates words from uniquewords.txt and fits as many of these words as possible onto the 700x600px canvas. The words are in line-row format. The font, Copperplate Gothic Bold, is a typeface that was designed in the early 20th century, specifically in 1901 by Frederic W. Goudy. Its design and characteristics share some similarities with fonts from the 1920s era. 'The Sun Also Rises' was written in 1926, hence the choice of font. The font colors include red, orange, and yellow, which represent the colors of our Sun. Size-24 font was used simply for its aesthetic appearance and dimensions on a 700x600px canvas. When the user clicks the window, a new set of words from uniquewords.txt is generated.
+
+a3_wordfrequency (written by Abraham Rodriguez)
+  This .pde will generate a visual representation of the relationship or lack thereof between word frequency and the number of words with these frequencies. Each rectangle is created using the following methodology. The line numbers in the wordfrequency.txt correlate to the y-position of the rectangle. Additionally, the number of words with a specific frequency correlate to the x-position of the rectangle.
